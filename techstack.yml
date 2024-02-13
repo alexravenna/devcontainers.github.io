@@ -1,0 +1,177 @@
+repo_name: alexravenna/devcontainers.github.io
+report_id: 99eb8dcfce6bcbcb7818b72f76228226
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-13T11:02:58+00:00'
+requested_by: mikoskinen
+provider: github
+branch: gh-pages
+detected_tools_count: 13
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/alexravenna/devcontainers.github.io
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  version: 3.2.2
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/alexravenna/devcontainers.github.io/blob/gh-pages/Gemfile.lock
+  detection_source: Repo Metadata
+  last_updated_by: Brigit Murtaugh
+  last_updated_on: 2023-04-24 17:57:18.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/alexravenna/devcontainers.github.io
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/alexravenna/devcontainers.github.io/blob/gh-pages/.github/workflows/publish.yml
+  detection_source: ".github/workflows/publish.yml"
+  last_updated_by: Josh Spicer
+  last_updated_on: 2022-08-26 11:32:50.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/alexravenna/devcontainers.github.io/blob/gh-pages/Gemfile
+  detection_source: Gemfile
+  last_updated_by: bamurtaugh
+  last_updated_on: 2022-04-14 22:02:36.000000000 Z
+- name: Visual Studio Code
+  description: Build and debug modern web and cloud applications, by Microsoft
+  website_url: https://code.visualstudio.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Text Editor
+  image_url: https://img.stackshare.io/service/4202/Visual_Studio_Code_logo.png
+  detection_source_url: https://github.com/alexravenna/devcontainers.github.io/blob/gh-pages/.vscode/tasks.json
+  detection_source: ".vscode/tasks.json"
+  last_updated_by: bamurtaugh
+  last_updated_on: 2022-04-14 22:02:36.000000000 Z
+- name: Jekyll
+  description: Blog-aware, static site generator in Ruby
+  website_url: http://jekyllrb.com/
+  version: 3.9.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Static Site Generators
+  image_url: https://img.stackshare.io/service/1114/ad968c1615d956e800fa36494314f48c.jpeg
+  detection_source_url: https://github.com/alexravenna/devcontainers.github.io/blob/gh-pages/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Samruddhi Khandale
+  last_updated_on: 2023-06-30 21:23:36.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/alexravenna/devcontainers.github.io
+  detection_source: Repo Metadata
+- name: github-pages
+  description: Bootstrap the GitHub Pages Jekyll environment locally
+  package_url: https://rubygems.org/github-pages
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/alexravenna/devcontainers.github.io/blob/gh-pages/Gemfile
+  detection_source: Gemfile
+  last_updated_by: bamurtaugh
+  last_updated_on: 2022-04-14 22:02:36.000000000 Z
+- name: jekyll-feed
+  description: A Jekyll plugin to generate an Atom feed of your Jekyll posts
+  package_url: https://rubygems.org/jekyll-feed
+  version: 0.15.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19149/default_b0a1033a29112f6f50b1dd3157e5fbf94dd2778a.png
+  detection_source_url: https://github.com/alexravenna/devcontainers.github.io/blob/gh-pages/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Samruddhi Khandale
+  last_updated_on: 2023-06-30 21:23:36.000000000 Z
+- name: jemoji
+  description: GitHub-flavored emoji plugin for Jekyll
+  package_url: https://rubygems.org/jemoji
+  version: 0.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/alexravenna/devcontainers.github.io/blob/gh-pages/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: bamurtaugh
+  last_updated_on: 2022-04-14 22:02:36.000000000 Z
+- name: tzinfo-data
+  description: TZInfo::Data contains data from the IANA Time Zone database packaged
+    as Ruby modules for use with TZInfo
+  package_url: https://rubygems.org/tzinfo-data
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19516/default_07037590725b871de29c1d2ebb4610950e953355.png
+  detection_source_url: https://github.com/alexravenna/devcontainers.github.io/blob/gh-pages/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Brigit Murtaugh
+  last_updated_on: 2023-04-24 17:57:18.000000000 Z
+- name: webrick
+  description: WEBrick is an HTTP server toolkit that can be configured as an HTTPS
+    server
+  package_url: https://rubygems.org/webrick
+  version: 1.8.1
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19444/default_e747a715ce0379afdb68c78657d70e4a512bf5f4.png
+  detection_source_url: https://github.com/alexravenna/devcontainers.github.io/blob/gh-pages/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Brigit Murtaugh
+  last_updated_on: 2023-04-24 17:57:18.000000000 Z
