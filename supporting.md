@@ -65,7 +65,7 @@ Cachix's **[devenv](https://devenv.sh/)** now supports automatically generating 
 
 See [devenv documentation](https://devenv.sh/integrations/codespaces-devcontainer/) for detais. 
 
-### <a href="#jetify-com-devbox" name="jetify-com-devbox" class="anchor"> Jetify Devbox </a>
+### <a href="#jetify-devbox" name="jetify-devbox" class="anchor"> Jetify Devbox </a>
 
 [Jetify](https://jetify.com) (formerly jetpack.io) is a [Nix](https://nixos.org/)-based service for deploying applications. [DevBox](https://www.jetify.com/devbox/) provides a way to use Nix to generate a development environment. [Jetify's VS Code extension](https://marketplace.visualstudio.com/items?itemName=jetpack-io.devbox) allows you to quickly take advantage of DevBox in any Dev Container Spec supporting tool or service. 
 
